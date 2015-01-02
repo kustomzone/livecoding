@@ -10,7 +10,11 @@ var GitHub =  {
 		};
 	},
 
-	_CLIENT_ID: window.LIVECODING_PROD ? 'ebb6390f3c54ed8002f1' : '7f06406d4740f8839007',
+	// github login via oauth client id
+	
+	// _CLIENT_ID: window.LIVECODING_PROD ? 'ebb6390f3c54ed8002f1' : '7f06406d4740f8839007',
+	
+	_CLIENT_ID: window.LIVECODING_PROD ? '35bf20402bc5966a37ea' : '35bf20402bc5966a37ea',
 
 	login: function() {
 		open('https://github.com/login/oauth/authorize?client_id=' + this._CLIENT_ID + '&scope=gist', 'popup', 'width=1015,height=500');
@@ -189,6 +193,8 @@ var GitHub =  {
 
 module.exports = GitHub;
 
+// HerokuApp.com
+
 window.handleToken = function(code) {
 
 	var gatekeeperApp = window.LIVECODING_PROD ? 'damp-journey-4764' : 'powerful-chamber-3695';
@@ -202,3 +208,4 @@ window.handleToken = function(code) {
 			console.log('Error', error);
 		});
 };
+

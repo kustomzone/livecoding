@@ -297,7 +297,7 @@ def create_new():
     isPublic = request.args.get('public', 'true')
 
     gist = {
-        'description': 'created by http://livecoding.io',
+        'description': 'created by http://kustomzone.com',
         'public': isPublic,
         'files': {
             'options.json': {
@@ -414,8 +414,9 @@ def save():
 
     return gistId
 
-
-
+#
+# github login
+#
 
 @app.route('/github-login')
 def github_login():
