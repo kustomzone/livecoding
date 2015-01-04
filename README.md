@@ -7,7 +7,7 @@ This is a complete rewrite of the old [livecoding.io](https://github.com/gabriel
 
 See [here](http://gabrielflorit.github.io/livecoding/docs/Livecoding.html) for documentation.
 
-#################################### Roadmap ###############################################
+############################ Roadmap #####################################
 
 - ✓ 11-12-2014: [Add updates screen](https://github.com/gabrielflorit/livecoding/issues/110)
 

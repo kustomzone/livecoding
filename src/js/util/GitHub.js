@@ -197,7 +197,7 @@ module.exports = GitHub;
 
 window.handleToken = function(code) {
 
-	var gatekeeperApp = window.LIVECODING_PROD ? 'damp-journey-4764' : 'powerful-chamber-3695';
+	var gatekeeperApp = window.LIVECODING_PROD ? 'dev-edit' : 'dev-make';
 
 	var url = 'http://' + gatekeeperApp + '.herokuapp.com/authenticate/' + code;
 
