@@ -1,6 +1,7 @@
 <!doctype html>
 <head>
 	<script>
+		// var url = 'https://dev-edit.herokuapp.com/';
 		var code = window.location.href.match(/\?code=(.*)/)[1];
 		opener.handleToken(code);
 		close();

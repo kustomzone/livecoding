@@ -46,8 +46,7 @@ var Livecoding = React.createClass({
 			html: '',
 			javascript: '',
 			css: '',
-			// Specify what mode we're currently editing.
-			mode: 'html',
+			mode: 'html', // specify what mode we're editing
 			user: this.getUser(),
 			userAvatarUrl: this.getUserAvatarUrl(),
 			gist: null
